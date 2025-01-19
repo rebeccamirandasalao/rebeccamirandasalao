@@ -1,0 +1,60 @@
+.call-f-a {
+    background-color: #fef9f6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 40px 0;
+    margin-top: 30px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.call-to-action {
+    animation: pulseGlow 3s infinite;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-weight: 300;
+    text-align: center;
+}
+
+.call-to-action h3 {
+    color: #d4a373;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.call-to-action p {
+    color: #555;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.call-to-action .cta-button {
+    display: inline-block;
+    background-color: #d4a373;
+    color: #fff;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-decoration: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.call-to-action .cta-button:hover {
+    background-color: #b58b58;
+    transform: scale(1.05);
+}
+
+/* Keyframes for glow effect */
+@keyframes pulseGlow {
+    0%, 100% {
+        box-shadow: 0 0 15px rgba(212, 163, 115, 0.6);
+    }
+    50% {
+        box-shadow: 0 0 40px rgba(212, 163, 115, 0.8);
+    }
+}

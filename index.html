@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rebecca Miranda Salão</title>
+    <link rel="stylesheet" href="css/index/index.css">
+    <link rel="stylesheet" href="css/index/carrossel.css">
+    <link rel="stylesheet" href="css/index/header.css">
+    <link rel="stylesheet" href="css/index/sobrenos.css">
+    <link rel="stylesheet" href="css/index/servicos.css">
+    <link rel="stylesheet" href="css/index/depoimentos.css">
+    <link rel="stylesheet" href="css/index/call-for-action.css">
+    <link rel="stylesheet" href="css/index/efeito-desce-aparece.css">
+    <link rel="stylesheet" href="css/index/footer.css">
+</head>
+<body>
+<!-------------------------------------------- START CABEÇALHO ------------------------------------------------------------->
+    <header>
+        <nav>
+            <img src="img/logo-comprimida-removebg-preview.png" alt="">
+            <ul class="coisas-pc">
+                <li><a href="#section1">Home</a></li>
+                <li><a href="#section2">Serviços</a></li>
+                <li><a href="#section3">Agendamento</a></li>
+                <li><a href="#section4">Salão</a></li>
+                <li><a href="#section4">Contato</a></li>
+            </ul>
+            <button id="menu-button" class="menu-button">
+            ☰
+            </button>
+        </nav>
+    </header>
+<!-------------------------------------------- END CABEÇALHO ------------------------------------------------------------->
+
+
+
+
+
+<div id="cabecalho-cel" class="cabecalho-cel">
+    <ul>
+        <li><button id="close-menu">×</button></li>
+        <li><a href="#section1">Home</a></li>
+        <li><a href="#section2">Serviços</a></li>
+        <li><a href="#section3">Agendamento</a></li>
+        <li><a href="#section4">Salão</a></li>
+        <li><a href="#section4">Contato</a></li>
+    </ul>
+</div>
+
+
+
+
+<!-------------------------------------------- START MAIN ------------------------------------------------------------->
+<main>
+
+    <!--START CARROSSEL-->
+    <section id="carrossel-section">
+        <img id="nome-logo" src="img/nome-logo-sem-fundo.png" alt="">
+        <div id="endereco-carrossel" class="itens-carrossel">
+            <h3>Endereço</h3>
+            <p>Av. Copacabana, 853-1005 - Morada de Laranjeiras, Serra - ES, 29168-076</p>
+        </div>
+        <div id="horario-carrossel" class="itens-carrossel">
+            <h3>Horário de funcionamento</h3>
+            <p>Segunda as sexta - 10:00 as 17:00 <br class="br-dsp"> Sábado e Domingo - 11:00 as 15:00  </p>
+        </div>
+        <div id="org-carrossel">
+            <!---START SLIDES-->
+            <div class="slides">
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">
+
+                <div id="slide1" class="slide first">
+                </div>
+                <div id="slide2" class="slide">
+                </div>
+                <div id="slide3" class="slide">
+                </div>
+                <div id="slide4" class="slide">
+                </div>
+
+                <div class="navigation-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                    <div class="auto-btn4"></div>
+                </div>
+            </div>
+            <!---END SLIDES-->
+            <!---START INPUTS-->
+            <div class="manual-navigation">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+                <label for="radio4" class="manual-btn"></label>
+            </div>
+            <!---END INPUTS-->
+        </div>
+    </section>
+    <!--END CARROSSEL-->
+
+    <!--START SOBRE NOS-->
+    <section id="about-section">
+        <!-- <span class="span-animado"></span> -->
+         <article id="sobre-nos">
+            <div class="titulo-article">
+                <h1>Sobre Nós</h1>
+            </div>
+            <div class="conteudo-article">
+                <div class="imagem-main fade-in">
+                    <img src="img/equipe-formato-oval.png" alt="">
+                </div>
+                <div class="texto-main fade-in">
+                    <p>
+                        Há mais de 15 anos, ajudamos pessoas a se sentirem mais <br class="br-sobre-dsp">
+                        bonitas, confiantes e poderosas. <b>Especialistas em loiros <br class="br-sobre-dsp">
+                        e tratamentos capilares</b>, nossa missão é oferecer resultados <br class="br-sobre-dsp">
+                        que transformam, cuidando de cada detalhe com dedicação e <br class="br-sobre-dsp">
+                        excelência. Usamos as melhores técnicas e produtos do mercado <br class="br-sobre-dsp">
+                        para garantir que você tenha mais do que um cabelo incrível: <br class="br-sobre-dsp">
+                        uma experiência única e personalizada, feita para realçar a <br class="br-sobre-dsp">
+                        sua beleza e renovar a sua autoestima. Não é apenas um salão, <br class="br-sobre-dsp">
+                        é um lugar onde sua transformação acontece.
+                    </p>
+                </div>
+            </div>
+         </article>
+    </section>
+    <!--END SOBRE NOS-->
+
+    <!--START SERVIÇOS-->
+    <section id="section-servicos">
+        <article class="titulo-article">
+            <h1>Nossos serviços</h1>
+        </article>
+        <article class="conteudo-article">
+
+            <div class="servicos">
+                <div class="servicos1">
+                    <div class="servico fade-in">
+                        <div class="titulo-servico">Hidratação</div>
+                        <div id="servico1" class="img-servico"></div>
+                    </div>
+                    <div class="servico fade-in">
+                        <div class="titulo-servico">Hidratação <br> + Escova</div>
+                        <div id="servico2" class="img-servico"></div>
+                    </div>
+                    <div class="servico fade-in">
+                        <div class="titulo-servico">Corte</div>
+                        <div id="servico3" class="img-servico"></div>
+                    </div>
+                    <div class="servico fade-in">
+                        <div class="titulo-servico">Pé e Mão</div>
+                        <div id="servico4" class="img-servico"></div>
+                    </div>
+                </div>
+                <div class="servicos2">
+                    <button id="show-more">Ver mais</button>
+                </div>
+            </div>
+
+            <div id="servicos-hidden" class="servicos">
+                <div class="servicos1">
+                    <div class="servico">
+                        <div class="titulo-servico">Hidratação</div>
+                        <div id="servico1" class="img-servico"></div>
+                    </div>
+                    <div class="servico">
+                        <div class="titulo-servico">Hidratação <br> + Escova</div>
+                        <div id="servico2" class="img-servico"></div>
+                    </div>
+                    <div class="servico">
+                        <div class="titulo-servico">Corte</div>
+                        <div id="servico3" class="img-servico"></div>
+                    </div>
+                    <div class="servico">
+                        <div class="titulo-servico">Pé e Mão</div>
+                        <div id="servico4" class="img-servico"></div>
+                    </div>
+                </div>
+            </div>
+            
+        </article>
+    </section>
+    <!--END SERVIÇOS-->
+
+    <!-- START COMENTARIOS -->
+    <section id="depoimentos-section">
+        <article class="titulo-article">
+            <h1>Depoimentos</h1>
+        </article>
+        <article class="conteudo-article">
+            <div class="depoimento fade-in">
+                <div class="foto" id="foto1"></div>
+                <img src="img/5-estrelas.webp" alt="">
+                <p>
+                    "Fiquei encantada com o Salão Rebecca Miranda! Fiz um loiro platinado e meu cabelo nunca esteve tão saudável. As profissionais são super atenciosas, e o atendimento é de excelência. Com certeza, meu lugar de confiança agora!"                </p>
+                <span class="span-depoimento">Cliente Débora de Souza</span>
+            </div>
+            <div class="depoimento fade-in">
+                <div class="foto" id="foto2"></div>
+                <img src="img/5-estrelas.webp" alt="">
+                <p>
+                    "Eu simplesmente amei o resultado! O Salão Rebecca Miranda me ajudou a encontrar o tom perfeito de loiro para o meu cabelo. O atendimento foi super acolhedor e as profissionais são altamente qualificadas. Saí de lá me sentindo linda e renovada!"                </p>
+                <span class="span-depoimento">Cliente Marcela Oliveira</span>
+            </div>
+            <div class="depoimento fade-in">
+                <div class="foto" id="foto3"></div>
+                <img src="img/5-estrelas.webp" alt="">
+                <p>
+                    "Meu cabelo nunca esteve tão bonito! O atendimento no Salão Rebecca Miranda é incrível, e o resultado foi exatamente o que eu esperava. Meu loiro ficou perfeito, e o melhor: meu cabelo está saudável e brilhante. Recomendo muito!"                </p>
+                <span class="span-depoimento">Cliente Aline Costa</span>
+            </div>
+        </article>
+    </section>
+    <!-- END COMENTARIOS -->
+
+
+    <!--START CALL FOR ACTION-->
+    <nav class="call-f-a">
+        <div class="call-to-action fade-in">
+            <h3>Transforme sua beleza, agende agora mesmo!</h3>
+            <p>Entre em contato e venha viver uma experiência única no Salão Rebecca Miranda. Seu momento de brilhar começa aqui!</p>
+            <a href="#" class="cta-button">Agende Seu Horário</a>
+        </div>
+    </nav>
+    <!--END CALL FOR ACTION-->
+
+
+    <!-- START BOTAO WHATSAPP -->
+<nav class="botao-wpp">
+    <img src="img/whatsapp.png" alt="">
+    <img src="img/instagram.png" alt="">
+    <img src="img/facebook.png" alt="">
+</nav>
+<!-- END BOTAO WHATSAPP -->
+
+
+</main>
+<!-------------------------------------------- END MAIN ------------------------------------------------------------->
+
+
+
+
+
+
+
+
+<!-------------------------------------------- START FOOTER ------------------------------------------------------------->
+<footer>
+    <div class="div-logo fade-in">
+        <img src="img/logo-com-fundo-removebg-preview.png" alt="">
+    </div>
+    <div class="div-redes-sociais">
+        <a href="" class="rede-social">
+            <img class="seta" src="img/seta-para-a-direita.png" alt="">
+            <img class="rs" src="img/instagram-o.png" alt="">
+            <span>Instagram</span>
+        </a>
+        <a href="" class="rede-social">
+            <img class="seta" src="img/seta-para-a-direita.png" alt="">
+            <img class="rs" src="img/whatsapp-o.png" alt="">
+            <span>Whatsapp</span>
+        </a>
+        <a href="" class="rede-social">
+            <img class="seta" src="img/seta-para-a-direita.png" alt="">
+            <img class="rs" src="img/facebook-o.png" alt="">
+            <span>Facebook</span>
+        </a>
+    </div>
+    <div class="endereco">
+        <div id="telefone-carrossel-footer" class="itens-carrossel">
+            <h3>Contato</h3>
+            <p>+55(27)9999-00000</p>
+        </div>
+        <div id="endereco-carrossel-footer" class="itens-carrossel">
+            <h3>Endereço</h3>
+            <p>Av. Copacabana, 853-1005 - Morada de Laranjeiras, Serra - ES, 29168-076</p>
+        </div>
+        <div id="horario-carrossel-footer" class="itens-carrossel">
+            <h3>Horário de funcionamento</h3>
+            <p>Segunda as sexta - 10:00 as 17:00 <br> Sábado e Domingo - 11:00 as 15:00  </p>
+        </div>
+    </div>
+    <div class="div-maps">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3744.5515126090145!2d-40.23703072093562!3d-20.19439073291969!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xb81e9c827eec57%3A0x1ffc85c4cb93677a!2sRebeca%20Miranda!5e0!3m2!1spt-BR!2sbr!4v1737232067797!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <div class="div-finalizacao">
+        <span class="iten-f">Site Desenvolvido por</span>
+        <a class="iten-f" href="https://samuelfox30.github.io"><b>Samuel Raposo Da Gama</b></a>
+    </div>
+</footer>
+<!-------------------------------------------- END FOOTER ------------------------------------------------------------->
+
+
+<script src="js/carrossel.js"></script>
+<script src="js/efeito-cabecalho.js"></script>
+<!-- <script src="js/nome-animado.js"></script> -->
+<script src="js/botao-aparecer-div.js"></script>
+<script src="js/efeito-desce-aparece.js"></script>
+<script src="js/aparece-menu.js"></script>
+</body>
+</html>
