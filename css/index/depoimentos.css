@@ -1,0 +1,115 @@
+#depoimentos-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+#depoimentos-section .titulo-article{
+    /* background-color: rgb(217, 217, 217); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+#depoimentos-section .titulo-article h1{
+    /* color: #000000; */
+    color: #DCBFA1;
+    font-size: 58px;
+    margin: 0;
+    margin: 70px 0px 10px 0px;
+}
+
+#depoimentos-section .conteudo-article{
+    /* background-color: rgb(103, 76, 76); */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+.depoimento{
+    /* background-color: aliceblue; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 230px;
+    margin: 30px 40px 30px 40px;
+    padding: 70px 20px 80px 20px;
+    border-radius: 30px;
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.8);
+}
+
+.depoimento .foto{
+    background-size: cover; /* Faz a imagem ocupar todo o espaço */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita repetição da imagem */
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+#foto1{
+    background-image: url("../../img/pessoa-aleatoria-1.jpg");
+}
+
+#foto2{
+    background-image: url("../../img/pessoa-aleatoria-2.jpg");
+}
+
+#foto3{
+    background-image: url("../../img/pessoa-aleatoria-3.webp");
+}
+
+.depoimento p{
+    font-weight: 300;
+}
+
+.depoimento span{
+    font-weight: 200;
+}
+
+.depoimento img{
+    width: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1000px) {
+    #depoimentos-section .conteudo-article{
+        flex-direction: column;
+    }
+    .depoimento{
+        width: 70%;
+        margin: 10px 0px 10px 0px;
+        padding: 30px 20px 40px 20px;
+    }
+    .depoimento p{
+        font-size: 10px;
+        font-weight: 300;
+    }
+    
+    .depoimento span{
+        font-weight: 200;
+    }
+    
+    .depoimento img{
+        width: 100px;
+    }
+}
